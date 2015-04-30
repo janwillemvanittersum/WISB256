@@ -17,14 +17,14 @@ for line in file:
     prev=line
 
 maxprime=int(prev)
-n=maxprime+1
+n=maxprime
 
 print('Largest Prime = ',maxprime)
-print('--------------------------------')
+print('-----------------------------------')
 print('pi(N)         = ', pi)
 print('N/log(N)      = ', n/math.log(n))
 print('ratio         = ', pi*math.log(n)/n)
-print('--------------------------------')
+print('-----------------------------------')
 print('pi_2(N)       = ', pi_2)
 print('2CN/log(N)^2  = ', 2*C2*n/math.log(n)**2)
 print('ratio         = ', pi_2*math.log(n)**2/(2*C2*n))
